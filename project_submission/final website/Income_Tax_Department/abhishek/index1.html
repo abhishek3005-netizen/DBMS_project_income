@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Income Tax E-Filing</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="index1.css">
+    </head>
+    <body>
+
+  <div class="form-page">
+
+  <form action="backend_income.php" method="post" onsubmit="return validate()">
+    <div class="heading">
+    <h1>Income Tax E-Filing</h1>
+    </div>
+    <div class="form-inputs">
+      <h3>Personal Details</h3>
+      <table>
+        <tr>
+          <td>First Name: <input type="text" name="fname" ></td>
+          <td>Middle Name: <input type="text" name="mname"></td>
+        </tr>
+        <tr>
+          <td>Last Name: <input type="text" name="lname"></td>
+          <td>Tax Number: <input type="text" name="taxid"></td>
+        </tr>
+        <tr>
+          <td>PAN Number: <input type="text" name="pan"></td>
+          <td>Date of Birth: <input type="date" name="dob"></td>
+        </tr>
+        <tr>
+          <td>Street: <input type="text" name="street"></td>
+          <td>City: <input type="text" name="city"></td>
+        </tr>
+        <tr>
+          <td>State: <input type="text" name="state"></td>
+          <td>Contact Number: <input type="number" name="number"></td>
+        </tr>
+        <tr>
+          <td>Sex: <input type="text" name="sex"></td>
+        </tr>
+      </table>
+
+      <h3>Dependent Details</h3>
+      <table>
+        <tr>
+          <td>First Name: <input type="text" name="depfname" ></td>
+          <td>Middle Name: <input type="text" name="depmname"></td>
+        </tr>
+        <tr>
+          <td>Last Name: <input type="text" name="deplname"></td>
+          <td>Relationship with dependent: <input type="text" name="relation"></td>
+        </tr>
+      </table>
+        <p>Date of Birth  (of Dependent): <input type="date" name="dob2"><br></p>
+
+      <h3>Account Registration</h3>
+      <table>
+        <tr>
+          <td>User ID: <input type="text" name="userid"></td>
+        </tr>
+        <tr>
+          <td>Create a password: <input type="password" name="password"></td>
+          <td>Retype password: <input type="password" name="retype_password"></td>
+        </tr>
+      </table>
+
+      <h3>Bank Account Details</h3>
+      <table>
+        <tr>
+          <td>Account Number: <input type="number" name="acn"></td>
+          <td>Account Type: <input type="text" name="acctype"></td>
+        </tr>
+        <tr>
+          <td>IFSC Code: <input type="text" name="ifsc"></td>
+          <td>Bank Name: <input type="text" name="bank"></td>
+        </tr>
+        <tr>
+          <td>payment id: <input type="text" name="paymentid"></td>
+        </tr>
+      </table>
+
+      <h3>Document Details</h3>
+      <table>
+        <tr>
+          <td>Document Type: <input type="text" name="doctype"></td>
+        </tr>
+        <tr>
+          <td>Document ID: <input type="number" name="docid"></td>
+          <td>Document Expiry: <input type="date" name="docexp"></td>
+        </tr>
+      </table>
+
+      <h3> Policy Details</h3>
+      <table>
+        <tr>
+          <td>Policy Number: <input type="number" name="pno"></td>
+          <td>Policy Type: <input type="text" name="ptype"></td>
+        </tr>
+        <tr>
+          <td>Policy Name: <input type="text" name="pname"></td>
+          <td>Policy Issue Date: <input type="date" name="issuedate"></td>
+        </tr>
+        <tr>
+          <td>Policy Expiry Date: <input type="date" name="expdate"></td>
+          <td>Policy Issue Company: <input type="text" name="isscomp"></td>
+        </tr>
+      </table>
+
+ <h3> Employee Details</h3>
+ <table>
+   <tr>
+     <td>Employee ID: <input type="text" name="empid"></td>
+     <td>Gross Salary: <input type="number" name="grsal"></td>
+   </tr>
+ </table>
+
+
+<br>
+<br>
+ <input type="checkbox" name="chkaccept"> By setting up this Account, I hereby declare that the information provided is true and correct.<br> I understand that any willful
+dishonesty may render for refusal of <br>this application or immediate termination of account.I also understand <br> that any willful dishonesty may result in strict legal action.
+<br>
+<br>
+
+        <div class="buttonarea">
+          <input type="submit" class="button" value="Set Up Account">
+        </div>
+</div>
+  </form>
+  </div>
+</body>
+</html>

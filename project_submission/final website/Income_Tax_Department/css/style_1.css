@@ -1,0 +1,223 @@
+#logoimg{
+    height: 80px;
+  }
+  
+  .wrapper{
+    color: red;
+    min-height: 30rem;
+  }
+  
+  nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(77, 77, 77, 0.932);
+    line-height: 80px;
+  }
+  
+  nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(214, 211, 211);
+    padding: 20px;
+  }
+  nav ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+  }
+  
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color:#4e4e4e;
+    font-size: 18px;
+    position: relative;
+}
+  
+  /*------------------banner-one-------------------------*/
+  .banner-one{
+    margin: auto;
+    padding-left: 15px;
+    /* margin-top: 100px;
+    margin-left: 500px; */
+    height: 100px;
+    width:45%;
+    
+  }
+  #h11{
+    /* border:2px solid red; */
+    padding: 0%;
+    text-align: center;
+    color:black;
+    font-size: 45px;
+    background-color: none;
+  }
+  #main-content-image{
+    margin-left: 500px;
+    height: 350px;
+    width:45%;
+  }
+  /*--------------------right-content-------------------*/
+  .right-content{
+    margin-right: 10px;
+    height: 400px;
+    width:350px;
+    margin-bottom: 100px;
+    margin-top: -357px;
+    float: right;
+    display: absolute;
+    height: "200px";
+    border: 0px solid ;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.23);
+  }
+  #links{
+    color: #000f32;
+    font-weight: 800px;
+    margin-top:10px;
+    margin-left:40px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    padding:5px;
+  }
+  .linker{
+    align-items: center;
+    align-content:center;
+    color:blue;
+    padding:5px 8px 5px 8px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .imagess{
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+  /*--------------------Login---------------------------*/
+  .main{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 5px;
+    height: 400px;
+    width:400px;
+    border:0px solid black;
+    border-radius:50px;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.14);
+  }
+  .sign {
+    padding-top: 40px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  .un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    form.form1 {
+        padding-top: 40px;
+    }
+    
+    .pass {
+            width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+   
+    .un:focus, .pass:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+        
+    }
+    
+    .submit {
+      cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #9C27B0, #E040FB);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 35%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+    
+    .forgot {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        padding-top: 15px;
+    }
+    
+    a {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        text-decoration: none
+    }
+/* --------------------NEWS AND UPDATE -------------*/
+#newsh1{
+  text-align: center;
+  font-size: 60px;
+  color: #000f32;
+  text-decoration: underline;
+}
+.news{
+  margin-top:150px;
+  margin-left: 80px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+  
+  /*---------------------- footer ------------------*/
+  .foot{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 20px;
+  }
